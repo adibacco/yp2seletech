@@ -42,7 +42,7 @@ unsigned char  UDPheader[8];            // holds UDP header
 /*----------------------------------------------------------------------------*/
 unsigned       IpAddress=0x3200A8C0;    // IP address is stored in VPD
                                         // MAC address is stored in VPD
-unsigned char  MacAddress[6]={0x00,0x01,0x02,0x03,0x04,0x06}; 
+unsigned char  MacAddress[6]={0x00,0x01,0x02,0x03,0x04,0x05}; 
 unsigned char  BroadcastAddress[6]={0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
 unsigned short UDPport;
 

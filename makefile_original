@@ -1,0 +1,16 @@
+LDFLAGS = 
+CC = $(CROSS_PREFIX)gcc
+CXX = $(CROSS_PREFIX)g++
+LD = $(CROSS_PREFIX)ld
+AR = $(CROSS_PREFIX)ar
+
+OBJECTS   = test.o
+LIBS = 
+INCLUDES = 
+
+test:	   
+	$(CC) -g -O0 $(CFLAGS) $(LIBS) test.c -o test 
+
+.PHONY:		test
+
+
